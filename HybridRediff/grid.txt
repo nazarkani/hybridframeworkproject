@@ -4,10 +4,10 @@ Hub setup->
 java -jar D:\SELE\CoreFiles\selenium-server-standalone-3.13.0.jar -role hub
 
 Node 1 setup-> 
-java -Dwebdriver.gecko.driver="D:\SELE\CoreFiles\geckodriver.exe" -Dwebdriver.chrome.driver="D:\SELE\CoreFiles\chromedriver.exe" -Dwebdriver.ie.driver="D:\SELE\CoreFiles\IEDriverServer.exe" -jar D:\SELE\CoreFiles\selenium-server-standalone-3.13.0.jar -role node -nodeConfig D:\Common\Grid\node1.json
+java -Dwebdriver.gecko.driver="D:\SELE\CoreFiles\geckodriver.exe" -Dwebdriver.chrome.driver="D:\SELE\CoreFiles\chromedriver.exe" -Dwebdriver.ie.driver="D:\SELE\CoreFiles\IEDriverServer.exe" -jar D:\SELE\CoreFiles\selenium-server-standalone-3.13.0.jar -role node -nodeConfig D:\SELE\GitRepository\HybridRediff\node1.json
 
 Node 2 setup->
-java -Dwebdriver.gecko.driver="D:\SELE\CoreFiles\geckodriver.exe" -Dwebdriver.chrome.driver="D:\SELE\CoreFiles\chromedriver.exe" -Dwebdriver.ie.driver="D:\SELE\CoreFiles\IEDriverServer.exe" -jar D:\SELE\CoreFiles\selenium-server-standalone-3.13.0.jar -role node -nodeConfig D:\Common\Grid\node2.json
+java -Dwebdriver.gecko.driver="D:\SELE\CoreFiles\geckodriver.exe" -Dwebdriver.chrome.driver="D:\SELE\CoreFiles\chromedriver.exe" -Dwebdriver.ie.driver="D:\SELE\CoreFiles\IEDriverServer.exe" -jar D:\SELE\CoreFiles\selenium-server-standalone-3.13.0.jar -role node -nodeConfig D:\SELE\GitRepository\HybridRediff\node2.json
 
 
 
